@@ -1,0 +1,14 @@
+{
+  "name": "mirantis-sudo",
+  "version": "3.0.10",
+  "author": "mirantis",
+  "summary": "Fork of saz/sudo, a module for managing sudo access",
+  "license": "Apache License, Version 2.0",
+  "source": "gerrit.mirantis.com/#/admin/projects/mirantis-openstack-express/puppet-sudo",
+  "project_page": "https://github.com/saz/puppet-sudo",
+  "issues_url": null,
+  "description": "Manage sudo configuration via Puppet",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.3.0"}
+  ]
+}
